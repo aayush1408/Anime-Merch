@@ -2,71 +2,71 @@ myShop.factory('stickerFactory', function () {
     var factory = {};
     var stickers = [
         {
-            name: 'Tobi',
-            imgUrl: 'public/images/Stickers/tobi.jpg',
-            price: 200
+            name: 'Whis',
+            imgUrl: 'public/images/Stickers/whis.jpg',
+            price: 20
         },
         {
             name: 'Meliodas',
             imgUrl: 'public/images/Stickers/meliodas.jpg',
-            price: 210
+            price: 21
         },
         {
             name: 'Kaneki Ken',
             imgUrl: 'public/images/Stickers/kaneki.jpg',
-            price: 180
+            price: 10
         },
         {
             name: 'Levi',
             imgUrl: 'public/images/Stickers/levi.jpg',
-            price: 240
+            price: 24
         },
 
         {
             name: 'Goku',
             imgUrl: 'public/images/Stickers/goku.jpg',
-            price: 300
+            price: 30
         },
         {
             name: 'Sasuke',
             imgUrl: 'public/images/Stickers/sasuke.jpg',
-            price: 150
+            price: 15
         },
         {
-            name: 'Whis',
-            imgUrl: 'public/images/Stickers/whis.jpg',
-            price: 200
+            name: 'Zoro',
+            imgUrl: 'public/images/Stickers/zoro.webp',
+            price: 100
         },
         {
             name: 'Natsu',
             imgUrl: 'public/images/Stickers/fairy.jpg',
-            price: 210
+            price: 10
         },
         {
             name: 'One piece',
             imgUrl: 'public/images/Stickers/luffy.webp',
-            price: 180
+            price: 80
         },
         {
             name: 'Itachi',
             imgUrl: 'public/images/Stickers/itachi.jpg',
-            price: 240
+            price: 40
         },
 
         {
             name: 'All Might',
             imgUrl: 'public/images/Stickers/all-might.jpg',
-            price: 300
+            price: 30
         },
         {
             name: 'Ban',
             imgUrl: 'public/images/Stickers/Ban.jpg',
-            price: 150
+            price: 50
         },
         {
             name: 'One punch man',
             imgUrl: 'public/images/Stickers/op.jpg',
-            price: 150
+            price: 50
         },
     ];
     factory.getStickers = function () {
