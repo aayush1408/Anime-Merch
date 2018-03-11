@@ -1,0 +1,17 @@
+<div class="row" ng-controller="mugController">
+    <div class="col s12 m3" ng-repeat="mug in mugs">
+        <div class="card">
+            <div class="card-image">
+                <img ng-src={{mug.imgUrl}} style="height:300px">
+            </div>
+            <div class="card-content">
+                <span class="card-title" style="font-family:Comic Sans Ms;color:darkorange">{{mug.name}}</span>
+                <p>Price: {{mug.price | currency:"$"}}</p>
+            </div>
+            <div class="card-action">
+                <a href="#">Check out</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/controllers/mugController.js"></script>

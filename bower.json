@@ -1,0 +1,22 @@
+{
+  "name": "anime-merchandise",
+  "authors": [
+    "aayush1408 <aayushjaiswal0114@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4",
+    "angular-route": "1.4.x"
+  }
+}
