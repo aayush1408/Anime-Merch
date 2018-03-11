@@ -1,5 +1,10 @@
+<div class="row">
+    <div class="input-field col s12">
+        <input placeholder="Search..." id="first_name2" type="text" ng-model="name">
+    </div>
+</div>
 <div class="row" ng-controller="shirtController">
-    <div class="col s12 m3" ng-repeat="shirt in shirts">
+    <div class="col s12 m3" ng-repeat="shirt in shirts | filter:name ">
         <div class="card">
             <div class="card-image">
                 <img ng-src={{shirt.imgUrl}} style="height:300px">
