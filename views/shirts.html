@@ -1,6 +1,6 @@
 <div class="row">
     <div class="input-field col s12">
-        <input placeholder="Search..." id="first_name2" type="text" ng-model="name">
+        <input placeholder="Search..." id="first_name2" type="text" ng-model="name" style="border-color:" >
     </div>
 </div>
 <div class="row" ng-controller="shirtController">
@@ -14,7 +14,7 @@
                 <p>Price: {{shirt.price | currency:"$"}}</p>
             </div>
             <div class="card-action">
-                <a href="#">Check out</a>
+                <a ng-href="#/products/{{shirt.id}}">Check out</a>
             </div>
         </div>
     </div>

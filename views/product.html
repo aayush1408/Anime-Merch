@@ -1,0 +1,26 @@
+\<div class="row" ng-controller="shirtController">
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img ng-src={{shirts[params-1].imgUrl}} style="height:300px">
+            </div>
+            <div class="card-content">
+                <span class="card-title" style="font-family:Comic Sans Ms;color:darkorange">{{shirts[params-1].name}}</span>
+                <p>Price: {{shirts[params-1].price | currency:"$"}}</p>
+            </div>
+            <div class="card-action">
+                <a >Add to cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s6 m4">
+                <img ng-src={{shirts[params-1].imgUrl}} style="height:500px; width:400px;">        
+    </div>
+    <div class="col s6 m4">
+        <p style="text-align:center;font-weight:500;font-size:30px;color:coral;font-family:Comic Sans Ms;">Total price : ${{shirts[params-1].price}}.00</p>
+        <h3 style="text-align:center;color:rgb(108, 112, 112);font-family:Comic Sans Ms;">Sizes available</h3>
+        <ul>
+            <li ng-repeat="x in shirts[params-1].sizes" style="list-style:none;text-align:center;font-weight:500;font-size:30px;color:grey;font-family:Comic Sans Ms;">{{x}}</li>
+        </ul>
+    </div>
+</div>
