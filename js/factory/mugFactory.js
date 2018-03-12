@@ -97,6 +97,27 @@ myShop.factory('mugFactory', function () {
             price: 150,
             cart: false
         },
+        {
+            id: 14,
+            name: 'Buu',
+            imgUrl: 'public/images/Mugs/majin.jpg',
+            price: 300,
+            cart: false
+        },
+        {
+            id: 15,
+            name: 'Asta',
+            imgUrl: 'public/images/Mugs/asta.jpg',
+            price: 150,
+            cart: false
+        },
+        {
+            id: 16,
+            name: 'Kuroku',
+            imgUrl: 'public/images/Mugs/kuroku.jpg',
+            price: 150,
+            cart: false
+        },
     ];
     factory.getMugs = function () {
         return mugs;
