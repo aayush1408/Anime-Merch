@@ -9,8 +9,37 @@
                     <p>Price: {{shirt.price | currency:"$"}}</p>
                 </div>
                 <div class="card-action">
-                    <a ng-click="removeCart(shirt)">Remove from cart</a>
+                    <a ng-click="removeShirt(shirt)" style="cursor:pointer">Remove from cart</a>
                 </div>
             </div>
         </div>
+    <div class="col s12 m3" ng-repeat="mug in mugs" ng-show={{mug.cart}}>
+        <div class="card">
+            <div class="card-image">
+                <img ng-src={{mug.imgUrl}} style="height:300px">
+            </div>
+            <div class="card-content">
+                <span class="card-title" style="font-family:Comic Sans Ms;color:darkorange">{{mug.name}}</span>
+                <p>Price: {{mug.price | currency:"$"}}</p>
+            </div>
+            <div class="card-action">
+                <a ng-click="removeMug(mug)" style="cursor:pointer">Remove from cart</a>
+            </div>
+        </div>
     </div>
+
+    <div class="col s12 m3" ng-repeat="sticker in stickers" ng-show={{sticker.cart}}>
+        <div class="card">
+            <div class="card-image">
+                <img ng-src={{sticker.imgUrl}} style="height:300px">
+            </div>
+            <div class="card-content">
+                <span class="card-title" style="font-family:Comic Sans Ms;color:darkorange">{{sticker.name}}</span>
+                <p>Price: {{sticker.price | currency:"$"}}</p>
+            </div>
+            <div class="card-action">
+                <a ng-click="removeSticker(sticker)" style="cursor:pointer">Remove from cart</a>
+            </div>
+        </div>
+    </div>
+</div>

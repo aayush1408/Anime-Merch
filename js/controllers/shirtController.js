@@ -6,9 +6,4 @@ myShop.controller('shirtController', function ($scope, $routeParams, shirtFactor
         swal({ text: 'Added', icon: "success" });
         console.log(shirt);
     }
-    $scope.removeCart = function (shirt) {
-        shirt.cart = false;
-        swal({ text: 'Removed', icon: "success" });
-        console.log(shirt)
-    }
 });
