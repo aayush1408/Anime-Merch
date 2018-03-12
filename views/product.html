@@ -1,4 +1,4 @@
-\<div class="row" ng-controller="shirtController">
+<div class="row" ng-controller="shirtController">
     <div class="col s12 m3">
         <div class="card">
             <div class="card-image">
@@ -9,7 +9,7 @@
                 <p>Price: {{shirts[params-1].price | currency:"$"}}</p>
             </div>
             <div class="card-action">
-                <a >Add to cart</a>
+                <a ng-click="addCart(shirts[params-1])">Add to cart</a>
             </div>
         </div>
     </div>
