@@ -110,6 +110,33 @@ myShop.factory('shirtFactory', function () {
             cart: false
 
         },
+        {
+            id: 14,
+            name: 'Kuroku',
+            imgUrl: 'public/images/Shirts/kuroku.jpg',
+            price: 300,
+            sizes: ['XXL', 'XL', 'M'],
+            cart: false
+
+        },
+        {
+            id: 15,
+            name: 'L',
+            imgUrl: 'public/images/Shirts/l.jpg',
+            price: 150,
+            sizes: ['XXL', 'XL', 'L', 'S'],
+            cart: false
+
+        },
+        {
+            id: 16,
+            name: 'Code Geass',
+            imgUrl: 'public/images/Shirts/code.jpg',
+            price: 150,
+            sizes: ['XL', 'L', 'M'],
+            cart: false
+
+        },
     ];
     factory.getShirts = function () {
         return shirts;

@@ -35,8 +35,8 @@ myShop.factory('mugFactory', function () {
 
         {
             id: 5,
-            name: 'Goku',
-            imgUrl: 'public/images/Mugs/dbz.jpg',
+            name: 'Vegeta',
+            imgUrl: 'public/images/Mugs/vegeta.jpg',
             price: 300,
             cart: false
         },
