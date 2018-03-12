@@ -89,8 +89,44 @@ myShop.factory('stickerFactory', function () {
         },
         {
             id: 13,
-            name: 'One punch man',
+            name: 'Saitama',
             imgUrl: 'public/images/Stickers/op.jpg',
+            price: 50,
+            cart: false
+        },
+        {
+            id: 14,
+            name: 'Doraemon',
+            imgUrl: 'public/images/Stickers/doraemon.jpg',
+            price: 40,
+            cart: false
+        },
+
+        {
+            id: 15,
+            name: 'Full Metal',
+            imgUrl: 'public/images/Stickers/fma.jpg',
+            price: 30,
+            cart: false
+        },
+        {
+            id: 16,
+            name: 'Boruto',
+            imgUrl: 'public/images/Stickers/boruto.webp',
+            price: 50,
+            cart: false
+        },
+        {
+            id: 17,
+            name: 'Vegeta',
+            imgUrl: 'public/images/Stickers/vegeta.jpg',
+            price: 50,
+            cart: false
+        },
+        {
+            id: 18,
+            name: 'HXH',
+            imgUrl: 'public/images/Stickers/hxh.jpg',
             price: 50,
             cart: false
         },
