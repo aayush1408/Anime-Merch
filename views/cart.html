@@ -9,7 +9,7 @@
                     <p>Price: {{shirt.price | currency:"$"}}</p>
                 </div>
                 <div class="card-action">
-                    <a >Added to cart</a>
+                    <a ng-click="removeCart(shirt)">Remove from cart</a>
                 </div>
             </div>
         </div>

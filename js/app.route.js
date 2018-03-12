@@ -1,4 +1,3 @@
-
 myShop.config(['$routeProvider', '$locationProvider', function ($routeProvider) {
     $routeProvider
         .when('/', { templateUrl: "views/home.html" })
